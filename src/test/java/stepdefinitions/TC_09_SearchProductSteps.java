@@ -4,13 +4,13 @@ package stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import pages.SearchProductPage;
+import pages.TC_09_SearchProductPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class TC_09_SearchProductSteps {
 
-    SearchProductPage searchProductPage = new SearchProductPage();
+    TC_09_SearchProductPage searchProductPage = new TC_09_SearchProductPage();
 
     @Given("Navigate to {string}")
     public void navigate_to(String url) {

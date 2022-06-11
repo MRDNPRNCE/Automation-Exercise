@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class RegisterWhileCheckoutPage {
-    public RegisterWhileCheckoutPage(){
+public class TC_14_RegisterWhileCheckoutPage {
+    public TC_14_RegisterWhileCheckoutPage(){
         PageFactory.initElements(Driver.getDriver(),this);
 
     }

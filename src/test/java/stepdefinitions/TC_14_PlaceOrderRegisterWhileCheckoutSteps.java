@@ -7,13 +7,13 @@ import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import pages.RegisterWhileCheckoutPage;
+import pages.TC_14_RegisterWhileCheckoutPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class TC_14_PlaceOrderRegisterWhileCheckoutSteps {
 
-    RegisterWhileCheckoutPage registerWhileCheckoutPage = new RegisterWhileCheckoutPage();
+    TC_14_RegisterWhileCheckoutPage registerWhileCheckoutPage = new TC_14_RegisterWhileCheckoutPage();
     @Then("Add products to cart")
     public void add_products_to_cart() {
         registerWhileCheckoutPage.addToCard.click();
