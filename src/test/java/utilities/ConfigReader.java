@@ -16,6 +16,7 @@ public class ConfigReader {
         try {
 
             FileInputStream fis = new FileInputStream(path);  //bu try-catch arasinda sorun yoksa callisir varsa
+            //properties=new Properties();
             properties=new Properties();
             properties.load(fis);
             fis.close();
