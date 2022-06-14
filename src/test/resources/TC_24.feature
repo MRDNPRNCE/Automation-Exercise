@@ -3,13 +3,13 @@ Feature: TC_24_Download Invoice after purchase order
  Scenario: TC_24
    Given  Navigate to url 'http://automationexercise.com'
    Then Verify that home page is visible successfully
-   And Add products to cart
-   Then Click Cart button
-   And Verify that cart page is displayed
-   Then Click Proceed To Checkout
+   And Add products to carti
+   Then Click Cart butt
+   And Verify that cart page is display
+   Then Click Proceed To Checkouti
    And Click Register / Login button
-   Then Fill all details in Signup and create account
-   And Verify ACCOUNT CREATED! and click Continue button
+   Then Fill all details in Signup and create accounti
+   And Verify ACCOUNT CREATED! and click Continue buttoni
   Then Verify  Logged in as username at top
   And Click Cart2 button
   # And Click Proceed To Checkout button
