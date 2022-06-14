@@ -15,25 +15,25 @@ public class TC24Stepdefinition {
     Actions action=new Actions(Driver.getDriver());
     Faker faker=new Faker();
 
-    @Then("Add products to cart")
+    @Then("Add products to carti")
     public void add_products_to_cart() {
         tc24_page.tc24AddToCart.click();
 
     }
 
-    @Then("Click Cart button")
+    @Then("Click Cart butt")
     public void click_cart_button() {
         tc24_page.tc24ViewCart.click();
 
     }
 
-    @Then("Verify that cart page is displayed")
+    @Then("Verify that cart page is display")
     public void verify_that_cart_page_is_displayed() {
        Assert.assertTrue(tc24_page.tc24VerfyCartPage.isDisplayed());
 
     }
 
-    @Then("Click Proceed To Checkout")
+    @Then("Click Proceed To Checkouti")
     public void click_proceed_to_checkout() {
         tc24_page.tc24ProceedToCheckout.click();
 
@@ -46,7 +46,7 @@ public class TC24Stepdefinition {
 
 
 
-    @Then("Fill all details in Signup and create account")
+    @Then("Fill all details in Signup and create accounti")
     public void fill_all_details_in_signup_and_create_account() {
         tc24_page.tc24SingUpName.sendKeys(faker.name().firstName());
         tc24_page.tc24SingUpEmail.sendKeys(faker.internet().emailAddress());
@@ -98,12 +98,12 @@ public class TC24Stepdefinition {
 
     }
 
-  //  @Then("Verify ACCOUNT CREATED! and click {string} button")
+  //  @Then("Verify ACCOUNT CREATED! and click {string} buttoni")
   //  public void verify_account_created_and_click_button(String string) {
     //    Assert.assertTrue(tc24_page.tc24AccountCreatedYazisi.isDisplayed());
      //   tc24_page.tc24ContinueButonu.click();
 
-        @Then("Verify ACCOUNT CREATED! and click Continue button")
+        @Then("Verify ACCOUNT CREATED! and click Continue buttoni")
         public void verify_account_created_and_click_continue_button() {
             Assert.assertTrue(tc24_page.tc24AccountCreatedYazisi.isDisplayed());
             tc24_page.tc24ContinueButonu.click();
@@ -123,7 +123,7 @@ public class TC24Stepdefinition {
 
 
 
-     @Then("Click Proceed To Checkout button")
+     @Then("Click Proceed To Checkout butt")
    public void click_proceed_to_checkout_button() {
     tc24_page.tc24ProceedToCheckout2.click();
     }

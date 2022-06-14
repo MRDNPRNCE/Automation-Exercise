@@ -19,19 +19,19 @@ public class TC08Stepdefinition {
         Driver.getDriver().get(ConfigReader.getProperty("AutomationExerciseUrl"));
     }
 
-    @Then("Verify that home page is visible successfully")
+    @Then("Verify that home page is visible successful")
     public void verify_that_home_page_is_visible_successfully() {
       Assert.assertTrue(tc08_page.tc08VerfyGirisSayfasi.isDisplayed());
 
     }
 
-    @Then("Click on Products button")
+    @Then("Click on Products butt")
     public void click_on_products_button() {
       tc08_page.tc08ProductsButon.click();
 
     }
 
-    @Then("Verify user is navigated to ALL PRODUCTS page successfully")
+    @Then("Verify user is navigated to ALL PRODUCTS page successful")
     public void verify_user_is_navigated_to_all_products_page_successfully() {
       Assert.assertTrue(tc08_page.tc08AllProductButons.isDisplayed());
 
