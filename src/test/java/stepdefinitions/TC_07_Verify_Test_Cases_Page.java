@@ -18,7 +18,7 @@ public class TC_07_Verify_Test_Cases_Page {
     TC_07_verify_test_cases_page testCasesPage = new TC_07_verify_test_cases_page();
 
 
-    @Given("Navigate to url {string}")
+    @Given("Navigate to urla {string}")
     public void navigate_to_url(String string) {
         Driver.getDriver().get(string);
     }
