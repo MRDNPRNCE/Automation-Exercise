@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.817">
+<testcase classname="Test case page" name="User verify test cases page" time="9.184">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given Navigate to url "https://automationexercise.com"......................passed
+And Verify that home page is visible successfully MK........................failed
+When Click on Test Cases button.............................................skipped
+Then Verify user is navigated to test cases page successfully...............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdefinitions.TC_07_Verify_Test_Cases_Page.verify_that_home_page_is_visible_successfully(TC_07_Verify_Test_Cases_Page.java:27)
+	at ✽.Verify that home page is visible successfully MK(file:///Users/admin/AutoExe/Automation-Exercise/src/test/resources/features/tc_07_verify_test_cases_page.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
