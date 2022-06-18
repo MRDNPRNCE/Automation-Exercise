@@ -61,4 +61,55 @@ public class TC24_page {
    @FindBy(xpath = "//a[@class='btn btn-default check_out']")
    public WebElement tc24ProceedToCheckout2;
 
+    @FindBy(xpath = "(//h2[@class='heading'])[1]")
+    public WebElement tc24AdressDetails;
+
+    @FindBy(xpath = "(//h2[@class='heading'])[2]")
+    public WebElement tc24ReviewYourOrder;
+
+    @FindBy(xpath = "//textarea[@name='message']")
+    public WebElement tc24TextArea;
+
+    @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    public WebElement tc24PlaceOrder;
+
+    @FindBy(xpath = "//input[@name='name_on_card']")
+   public WebElement tc24NameOnCard;
+
+    @FindBy(xpath = "//input[@name='card_number']")
+    public WebElement tc24CardNumber;
+
+     @FindBy(xpath = "//input[@name='cvc']")
+     public WebElement tc24CVC;
+
+     @FindBy(xpath = "//input[@name='expiry_month']")
+      public WebElement tc24expiration;
+
+    @FindBy(xpath = "//input[@name='expiry_year']")
+    public WebElement tc24ExpirationYear;
+
+     @FindBy(xpath = "//button[@id='submit']")
+      public WebElement tc24PayAndComfirOrder;
+
+     @FindBy(xpath = "//ins[@class='adsbygoogle']")
+      public WebElement tc24SuccesfulYazisi;
+
+     @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+      public WebElement tc24DownloadInvoice;
+
+     @FindBy(xpath = "//a[@class='btn btn-primary']")
+      public WebElement tc24ContinueButonu1;
+
+     @FindBy(xpath = "//a[@href='/delete_account']")
+     public WebElement tc24DeleteAccount;
+
+    // @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    //  public WebElement tc24ProceedToCheckout2;
+
+    // @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    //  public WebElement tc24ProceedToCheckout2;
+
+    // @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    //  public WebElement tc24ProceedToCheckout2;
+
 }
